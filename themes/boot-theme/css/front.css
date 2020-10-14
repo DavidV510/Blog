@@ -1,0 +1,177 @@
+/* 
+    Theme Name:Bootstrap
+    Theme URI:
+    Author:David Vinter
+    Author URI:
+    Description: Bootstrap Theme
+    Version:1.0
+    License:GNU General Public License v2 or later
+    License URI: http://wwww.gnu.org/licenses/gpl-2.0.html
+    Tags:Css Grid, Flexbox, Responsive, Bootstrap, Javascript
+
+*/
+
+/* Front */
+
+.post{
+    text-align: center;
+    font-size: 2rem;
+    background-color: var(--white);
+    margin-bottom: 2rem;
+    padding: 3rem;
+    border: 15px solid #f2f2f2;
+}
+
+.post h3{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.post a{
+    font-size: 2.5rem;
+    padding: 0.5rem 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.post span {
+    color: var(--pink);
+}
+
+.post .h3Cate{
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 3rem;
+    margin-bottom: -4rem;
+}
+
+
+/* About */
+.aboutUs{
+   
+    background:#f2f2f2;
+}
+.aboutUs .row p{
+    font-size: 1.5rem;
+
+    line-height: 3rem;
+}
+.aboutUs .row .col-sm-8{
+    padding: 5rem;
+    background-color: white;
+}
+.sidebar{
+    padding-bottom: 3rem;
+}
+.sidebar #search-3{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar #search-3 label{
+    display: none;
+}
+
+.sidebar #search-3 form{
+    margin-top: 6rem;
+}
+
+.sidebar #search-3 form input{
+    height: 5rem;
+    width: 75%;
+}
+
+.sidebar #search-3 form input[type="submit"]{
+    position: relative;
+    top: 0.3rem;
+    background: rgb(30, 109, 255);
+    border-radius: 10px;
+    border: none;
+    font-size: 2rem;
+    font-family: var(--mainFont);
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.sidebar h3 {
+    margin-top: 3rem;
+    font-size: 3.5rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--mainFont);
+}
+
+.sidebar #recent-posts-4 ul{
+    padding-left: 7rem;
+    margin-top: 4rem;
+}
+
+.sidebar #recent-posts-4  ul li{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Contact Us */
+
+.contactUs .row .wpcf7{
+    padding: 5rem 0rem;
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+
+.contactUs .row .wpcf7 input{
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contactUs .row .wpcf7 textarea{
+    border: none;
+    cursor: pointer;
+}
+
+.contactUs .row .wpcf7 input[type="submit"]{
+    position: relative;
+    top: 0.3rem;
+    background: rgb(30, 109, 255);
+    border-radius: 10px;
+    border: none;
+    font-size: 2.5rem;
+    font-family: var(--mainFont);
+    color: white;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.contactUs .row .wpcf7 input[type="submit"]:hover{
+    color: black;
+}
+
+
+
+@media(max-width:768px){
+    /* Contact Responsive */
+    .contactUs .row .wpcf7 {
+        padding: 5rem 1rem;
+        text-align: left;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 3rem;
+    }
+
+    .contactUs .row .wpcf7 input {
+        width: 40rem;
+    }
+    .contactUs .row .wpcf7 textarea {
+        width: 40rem;
+    }
+    
+}
